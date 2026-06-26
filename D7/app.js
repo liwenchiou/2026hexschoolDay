@@ -26,7 +26,7 @@ app.use((req, res) => {
 
 // ==========================
 
-const PORT = 7788;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`伺服器啟動中：http://localhost:${PORT}`);
 });
